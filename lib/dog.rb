@@ -9,8 +9,8 @@ class Dog
     @@all << self
   end
 
-  def clear_all(puppy)
-    @@all.clear
+  def clear_all
+    Dog.clear
   end
 
   def self.all
